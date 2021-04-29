@@ -1,3 +1,3 @@
 # Cabal-of-Programmers-Website
 
-Yeet build test 
+Yeet build test
