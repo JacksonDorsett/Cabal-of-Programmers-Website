@@ -17,9 +17,9 @@ The Cabal of Programmers is a **grassroots, homegrown software engineering serve
 
 There are three main projects that the server is currently working on:
 
-1. The Nail programming language (written in Rust)
-1. The Cabal of Programmers Website (Written using the C# Blazor Framework)
-1. A Distributed Recipe scraper (Written in multiple languages using a microservice architecture Primarily C# and python)
+1. The **Nail programming language** (written in **Rust**)
+1. The **Cabal of Programmers Website** (Written using the **C# Blazor WASM Framework**)
+1. A **Distributed recipe scraper** (Written in **multiple languages** using a **microservice architecture**)
 
 The Cabal of programmers will be **hosting a 3 day hackathon from June 11th - June 13th.** There will be more information on our website coming soon!
 
