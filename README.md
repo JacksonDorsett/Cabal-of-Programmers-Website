@@ -1,6 +1,6 @@
 # Cabal of Programmers Official Website
 
-Hello based hackers and chad script kiddies (**no soy-boys allowed**). 
+Hello based hackers and chad script kiddies! 
 
 This is the **official** Cabal of Programmers website git.
 
@@ -41,7 +41,7 @@ Message in the #website-building channel to get involved or message @JacksonDors
 - [ ] Improve the home page.
 - [ ] Create Hackathon Page - should be done immediately
 - [ ] Add all the projects to the project page
-- [ ] Make the site https
+- [X] Make the site https
 - [ ] Distributed recipe scraper
 - [ ] Create glorious memes
 - [ ] Other
