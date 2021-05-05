@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Cabal_of_programmers.Pages
+namespace Cabal_of_Programmers_Website.Pages
 {
     #line hidden
     using System;
@@ -13,111 +13,83 @@ namespace Cabal_of_programmers.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 1 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 2 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 3 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 4 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 5 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 6 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 7 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
+#line 8 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
-using Cabal_of_programmers;
+#line 9 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
+using Cabal_of_Programmers_Website;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\_Imports.razor"
-using Cabal_of_programmers.Shared;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 2 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\Pages\Projects.razor"
-using Cabal_of_programmers.Data;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\Pages\Projects.razor"
-using Cabal_of_programmers.services;
+#line 10 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\_Imports.razor"
+using Cabal_of_Programmers_Website.Shared;
 
 #line default
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/projects")]
-    public partial class Projects : OwningComponentBase<ProjectService>
+    public partial class Projects : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 54 "C:\Users\dorse\source\repos\Cabal-of-programmers\Cabal-of-programmers\Pages\Projects.razor"
-       
-
-    IList<ProjectModel> projects;
-
-    protected override void OnInitialized()
-    {
-        projects = Service.GetProjects();
-    }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

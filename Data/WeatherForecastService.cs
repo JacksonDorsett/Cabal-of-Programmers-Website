@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Cabal_of_programmers.Data
+namespace Cabal_of_Programmers_Website.Data
 {
     public class WeatherForecastService
     {
