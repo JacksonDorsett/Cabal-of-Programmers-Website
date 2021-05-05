@@ -13,7 +13,7 @@ infrastructure of the **greatest** meme computer science group of all time.
 
 #### About us
 
-The Cabal of Programmers is a **grassroots, homegrown software engineering server** where students from all walks of life come together and **work on a variety of projects as a team.** 
+The Cabal of Programmers is a **grassroots, homegrown software engineering** ***and*** **computer science server** where students from all walks of life come together and **work on a variety of projects as a team.** 
 
 There are three main projects that the server is currently working on:
 
