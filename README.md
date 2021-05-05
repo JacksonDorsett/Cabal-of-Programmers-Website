@@ -42,6 +42,6 @@ Message in the #website-building channel to get involved or message @Jackson or 
 - [ ] Create Hackathon Page - should be done immediately
 - [ ] Add all the projects to the project page
 - [ ] Make the site https
-- [ ] Distributed website scraper
+- [ ] Distributed recipe scraper
 - [ ] Create glorious memes
 - [ ] Other
