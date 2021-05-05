@@ -16,10 +16,15 @@ infrastructure of the **greatest** meme computer science group of all time.
 * [ ] Unimplemented
 * [X] Implemented
 
-* [ ] Make the website not just a blazor template.
+---
+
+* [X] Find a web framework to use (Blazor)
+* [X] Make the website actually work
 * [X] Add project page
+* [ ] Make the website not just a blazor template.
 * [ ] Improve the home page.
 * [ ] Create Hackathon Page - should be done immediately
 * [ ] Add all the projects to the project page
+* [ ] Make the site https
 * [ ] Create glorious memes
 * [ ] Other
