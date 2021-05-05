@@ -25,7 +25,7 @@ The Cabal of programmers will be **hosting a 3 day hackathon from June 11th - Ju
 
 All are welcome no matter the skill level.
 
-Message in the #website-building channel to get involved or message @Jackson or @TorNATO
+Message in the #website-building channel to get involved or message @JacksonDorsett or @TorNATO-PRO
 
 ## TODO:
 
