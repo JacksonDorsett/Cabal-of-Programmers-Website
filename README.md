@@ -1,13 +1,13 @@
 # Cabal-of-Programmers-Website
 
-Hello hackers and script kiddies (no soy boys allowed). 
+Hello based hackers and script kiddies (**no soy boys allowed**). 
 
 This is the **official** Cabal of Programmers website git.
 
-We welcome you to consider committing if you haven't already, and help us build the
+We welcome you to consider committing if you haven't already, and help us construct the
 infrastructure of the **greatest** meme computer science group of all time.
 
-**Discord Link**: https://discord.gg/8sHGFpVUmW
+#### Discord Link: https://discord.gg/8sHGFpVUmW
 
 [![Average CoP member](https://www.memeatlas.com/images/pepeThumbnails/pepe-fancy-smoking-cigar-served-by-seething-wojak-thumbnail.jpg)](https://discord.gg/8sHGFpVUmW)
 
