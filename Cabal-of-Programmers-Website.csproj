@@ -4,5 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Cabal_of_Programmers_Website</RootNamespace>
   </PropertyGroup>
-
+	<ItemGroup>
+		<Folder Include="Data"/>
+		<Folder Include="Pages"/>
+		<Folder Include="Shared"/>
+	</ItemGroup>
 </Project>
