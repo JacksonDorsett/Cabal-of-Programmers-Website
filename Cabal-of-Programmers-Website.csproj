@@ -5,8 +5,4 @@
     <RootNamespace>Cabal_of_Programmers_Website</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>

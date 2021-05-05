@@ -90,7 +90,7 @@ using Cabal_of_Programmers_Website.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\Shared\NavMenu.razor"
+#line 28 "C:\Users\dorse\Desktop\Coding\Project\Cabal-of-Programmers-Website\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
