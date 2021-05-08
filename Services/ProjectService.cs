@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Cabal_of_Programmers_Website.Data;
 
-namespace Cabal_of_Programmers_Website.Data
+namespace Cabal_of_Programmers_Website.Services
 {
     public class ProjectService
     {

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Cabal_of_Programmers_Website.Data;
+using Cabal_of_Programmers_Website.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cabal_of_Programmers_Website

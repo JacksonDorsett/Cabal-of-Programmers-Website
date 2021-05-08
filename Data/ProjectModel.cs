@@ -9,7 +9,7 @@ namespace Cabal_of_Programmers_Website.Data
     public class ProjectModel
     {
         [Key]
-        public int pid { get; set; }
+        public int id { get; set; }
 
         public string name { get; set; }
 
@@ -17,8 +17,8 @@ namespace Cabal_of_Programmers_Website.Data
 
         public DateTime dateposted { get; set; }
 
-        public string gitlink { get; set; }
+        public string repolink { get; set; }
 
-        public string imageurl { get; set; }
+        public string imglink { get; set; }
     }
 }

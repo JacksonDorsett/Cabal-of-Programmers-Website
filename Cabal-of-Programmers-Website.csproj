@@ -8,7 +8,7 @@
 		<Folder Include="Data" />
 		<Folder Include="Pages" />
 		<Folder Include="Shared" />
-		<Folder Include="Services" />
+		<Folder Include="Services/" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="EntityFramework6.Npgsql" Version="6.4.1" />
