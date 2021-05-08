@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Cabal_of_Programmers_Website.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Cabal_of_Programmers_Website
 {
@@ -26,9 +27,11 @@ namespace Cabal_of_Programmers_Website
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyConnection")));
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddScoped<ProjectService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

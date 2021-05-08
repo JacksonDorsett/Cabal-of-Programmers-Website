@@ -1,7 +1,15 @@
 ﻿@page "/projects"
-
+@using Cabal_of_Programmers_Website.Data
+@using Cabal_of_Programmers_Website.Services
+@inherits OwningComponentBase<ProjectService>
 <h3>Projects</h3>
-
+@foreach (ProjectModel item in projects)
+{
+    <h1>@item.name</h1>
+}
 @code {
-
+    public IList<ProjectModel> projects;
+    protected override void OnInitialized(){
+        projects = Service.displayProjects();
+    }
 }
