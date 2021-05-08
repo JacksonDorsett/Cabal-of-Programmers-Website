@@ -5,8 +5,13 @@
     <RootNamespace>Cabal_of_Programmers_Website</RootNamespace>
   </PropertyGroup>
 	<ItemGroup>
-		<Folder Include="Data"/>
-		<Folder Include="Pages"/>
-		<Folder Include="Shared"/>
+		<Folder Include="Data" />
+		<Folder Include="Pages" />
+		<Folder Include="Shared" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="EntityFramework6.Npgsql" Version="6.4.1" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.3.21201.2" />
+	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0-preview3" />
 	</ItemGroup>
 </Project>
