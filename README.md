@@ -2,7 +2,7 @@
 
 Hello based hackers and chad script kiddies! 
 
-This is the **official** Cabal of Programmers website git.
+This is the **official** Cabal of Programmers website git repository.
 
 Please consider committing if you haven't already, and help us construct the
 infrastructure of the **greatest** meme computer science group of all time.
