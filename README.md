@@ -1,6 +1,6 @@
 # Cabal of Programmers Official Website
 
-Hello based hackers and chad script kiddies! 
+Hello based hackers and chad script kiddies!! 
 
 This is the **official** Cabal of Programmers website git repository.
 
