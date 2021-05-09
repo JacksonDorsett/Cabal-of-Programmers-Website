@@ -105,7 +105,7 @@ using Cabal_of_Programmers_Website.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
+#line 55 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
        
     public IList<ProjectModel> projects;
     protected override void OnInitialized(){
