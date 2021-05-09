@@ -26,13 +26,13 @@
         </div>*@
             @foreach (var project in projects)
             {
-                <div class="col">
+                <div class="col" style="margin: 10px 10px 10px 10px;">
                     <div class="row justify-content-left">
                         <div style="max-width: 350px; min-width: 250px; text-align: center;" class="card">
                             <div class="card-img">
-                                <img style="height: 300px; width: 300px;" src="@project.imglink" alt="Project image"/>
+                                <img style="height: 300px; width: 400px;" src="@project.imglink" alt="Project image"/>
                             </div>
-                            <div class="card-body" style="margin: 10px 10px 10px 10px;">
+                            <div class="card-body">
                                 <div class="card-title">
                                     <h3>@project.name</h3>
                                 </div>
