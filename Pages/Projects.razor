@@ -1,7 +1,6 @@
 ﻿@page "/projects"
 @using Cabal_of_Programmers_Website.Data
-@using Cabal_of_Programmers_Website.Services
-@inherits OwningComponentBase<ProjectService>
+@inherits OwningComponentBase<Cabal_of_Programmers_Website.Services.ProjectService>
 
 <h3>Projects</h3>
 <div>
@@ -29,13 +28,17 @@
             {
                 <div class="col">
                     <div class="row justify-content-left">
-                        <div style="text-align: center; min-width:250px; max-width:350px;" class="card">
+                        <div style="max-width: 350px; min-width: 250px; text-align: center;" class="card">
                             <div class="card-img">
-                                <img style="width:300px; height:auto" src="@project.imglink" alt="Project image"/>
+                                <img style="height: 300px; width: 300px;" src="@project.imglink" alt="Project image"/>
                             </div>
-                            <div class="card-body">
-                                <div class="card-title"><h3>@project.name</h3></div>
-                                <div class="card-body"><p style="text-align:left;">@project.description</p></div>
+                            <div class="card-body" style="margin: 10px 10px 10px 10px;">
+                                <div class="card-title">
+                                    <h3>@project.name</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p style="text-align: left;">@project.description</p>
+                                </div>
                                 <div style="text-align: left" class="card-footer">
                                     <a class="btn btn-primary" href="@project.repolink" role="button">
                                         <img src="/images/icons/github.svg" alt="Github logo">
@@ -52,9 +55,13 @@
         </row>
     </div>
 </div>
+
 @code {
     public IList<ProjectModel> projects;
-    protected override void OnInitialized(){
+
+    protected override void OnInitialized()
+    {
         projects = Service.displayProjects();
     }
+
 }
