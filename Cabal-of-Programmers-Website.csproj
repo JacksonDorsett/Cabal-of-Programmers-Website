@@ -4,11 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Cabal_of_Programmers_Website</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\pepe-fancy-smoking-cigar-served-by-seething-wojak-thumbnail.jpg" />
+  </ItemGroup>
 	<ItemGroup>
 		<Folder Include="Data" />
-		<Folder Include="Pages" />
 		<Folder Include="Shared" />
 		<Folder Include="Services/" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="wwwroot\pepe-fancy-smoking-cigar-served-by-seething-wojak-thumbnail.jpg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="EntityFramework6.Npgsql" Version="6.4.1" />
