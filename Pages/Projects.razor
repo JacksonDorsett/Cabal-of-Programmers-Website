@@ -27,7 +27,7 @@
             @foreach (var project in projects)
             {
                 <div class="col">
-                    <div class="row justify-content-left">
+                    <div class="row align-content-start">
                         <div style="width: 250px; text-align: center;" class="card">
                             <div class="card-img">
                                 <img style="height: 200px; width: 250px;" src="@project.imglink" alt="Project image"/>
@@ -44,8 +44,10 @@
                                         <img src="/images/icons/github.svg" alt="Github logo">
                                         GitHub
                                     </a>
-                                    <p style="color: dimgray">Date posted: @project.dateposted</p>
                                 </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Date posted: @project.dateposted</small>
                             </div>
                         </div>
                     </div>
