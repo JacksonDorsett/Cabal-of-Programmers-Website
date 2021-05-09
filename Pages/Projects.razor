@@ -1,5 +1,6 @@
 ﻿@page "/projects"
 @using Cabal_of_Programmers_Website.Data
+@using System.Globalization
 @inherits OwningComponentBase<Cabal_of_Programmers_Website.Services.ProjectService>
 
 <!-- I am gonna have to deal with this shit tomorrow :P-->
@@ -41,7 +42,7 @@
                         <p class="card-body">@project.description</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Date posted: @project.dateposted.ToShortTimeString()</small>
+                        <small class="text-muted">Date posted: @project.dateposted.ToString("MM/dd/yyyy")</small>
                     </div>
                 </div>
             }
