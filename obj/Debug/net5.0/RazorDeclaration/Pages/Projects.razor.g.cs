@@ -89,6 +89,13 @@ using Cabal_of_Programmers_Website.Data;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/projects")]
     public partial class Projects : OwningComponentBase<Cabal_of_Programmers_Website.Services.ProjectService>
     {
@@ -98,7 +105,7 @@ using Cabal_of_Programmers_Website.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
+#line 51 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
        
     public IList<ProjectModel> projects;
 
