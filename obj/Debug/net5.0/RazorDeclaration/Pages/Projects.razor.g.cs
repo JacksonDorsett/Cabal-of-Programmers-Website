@@ -89,15 +89,8 @@ using Cabal_of_Programmers_Website.Data;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
-using Cabal_of_Programmers_Website.Services;
-
-#line default
-#line hidden
-#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/projects")]
-    public partial class Projects : OwningComponentBase<ProjectService>
+    public partial class Projects : OwningComponentBase<Cabal_of_Programmers_Website.Services.ProjectService>
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -105,12 +98,15 @@ using Cabal_of_Programmers_Website.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 55 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
+#line 59 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
        
     public IList<ProjectModel> projects;
-    protected override void OnInitialized(){
+
+    protected override void OnInitialized()
+    {
         projects = Service.displayProjects();
     }
+
 
 #line default
 #line hidden
