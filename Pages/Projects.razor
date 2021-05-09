@@ -27,20 +27,18 @@
             @foreach (var project in projects)
             {
                 <div class="card">
-                    <img style="height: 200px; width: 250px;" src="@project.imglink" alt="Project image" class="card-img-top" />
+                    <img src="@project.imglink" alt="Project image" class="card-img-top" />
                     <div class="card-body">
                         <div class="card-title">
                             <h3>@project.name</h3>
                         </div>
-                        <div id="github-button">
+                        <div id="github-button" class="card-link">
                             <a class="btn btn-primary" href="@project.repolink" role="button">
                                 <img src="/images/icons/github.svg" alt="Github logo">
                                 GitHub
                             </a>
                         </div>
-                        <div class="card-body">
-                            <p style="text-align: left;">@project.description</p>
-                        </div>
+                        <p class="card-body">@project.description</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">Date posted: @project.dateposted.ToShortTimeString()</small>
