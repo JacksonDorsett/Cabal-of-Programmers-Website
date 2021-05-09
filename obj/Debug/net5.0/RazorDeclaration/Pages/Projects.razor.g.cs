@@ -98,7 +98,7 @@ using Cabal_of_Programmers_Website.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 59 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
+#line 56 "C:\Users\waltz\Documents\CoP Website\Cabal-of-Programmers-Website\Pages\Projects.razor"
        
     public IList<ProjectModel> projects;
 
